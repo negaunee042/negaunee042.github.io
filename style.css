@@ -454,10 +454,13 @@ h2#four {
 
 @media all and (max-width: 800px) {
   body {
-    background-color: skyblue;
+    background-color: #ffffff;
   }
   .main-wrap2 {
     max-width: 95vw;
+    /* max-width: 90vw; */
+      min-height: 1000px;
+    
   }
   .main-text2 {
     margin-left: 2rem;
