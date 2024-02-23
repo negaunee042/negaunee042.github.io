@@ -7,6 +7,7 @@
     <meta name="HandheldFriendly" content="true">
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" type="x-image/icon" href="img/ico3.jpg" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <title>G.E Builders</title>
   </head>
@@ -34,24 +35,15 @@
 
           <li>
             <a href="#" id="about" class="links">About</a>
-            <ul
-              class="dropdown dropdown__tab dropdown__tab--2 hidden"
-              data-tab="2"
-            >
-              <li><a href="#">Fuck you</a></li>
-              <li><a href="#">Fuck you</a></li>
-              <li><a href="#">Fuck you</a></li>
-              <li><a href="#">Fuck you</a></li>
-              <li><a href="#">Fuck you</a></li>
-            </ul>
-          </li>
+         </li>
+
+         <li>
+          <a href="#" id="testimonial" class="links">Testimonials</a>
+       </li>
 
           <li>
             <a href="#" id="contact" class="links">Contact Us</a>
-            <!-- <ul class="dropdown dropdown__tab dropdown__tab--3 hidden">
-              <li><a href="#">Fuck you</a></li>
-              <li><a href="#">Fuck you</a></li>
-            </ul> -->
+      
           </li>
         </ul>
       </div>
@@ -131,10 +123,7 @@
         >
       </div>
 
-      <!-- <div class="row" id="4">
-        <h2 id="four">Contact</h2>
-        contact us today
-      </div> -->
+
     </div>
     <br /><br />
   </div>
@@ -146,106 +135,210 @@
 
     </section>
     
-
     <div class="imgcontainer">
+
       <div class="holder">
         <div class="slides">
-          <img src="img/1.png" alt="" />
+          <img src="img/1.jpg" alt="G.E. Builders" />
         </div>
 
         <div class="slides">
-          <img src="img/2.png" />
+          <img src="img/2.jpg" alt="G.E. Builders" metadata="G.E. Builders" />
         </div>
 
         <div class="slides">
-          <img src="img/3.png" />
+          <img src="img/3.jpg" />
         </div>
 
         <div class="slides">
-          <img src="img/4.png" />
+          <img src="img/4.jpg" />
         </div>
 
         <div class="slides">
-          <img src="img/5.png" />
+          <img src="img/5.jpg" />
         </div>
 
         <div class="slides">
-          <img src="img/6.png" />
+          <img src="img/6.jpg" />
         </div>
       </div>
-
-      <div class="prevContainer">
-        <a class="prev" onclick="plusSlides(-1)">
-          <span><h2 id="svgarrprev"><</h2> </span>
-          <svg viewBox="0 0 24 24"></svg>
-        </a>
+      <div class="slides">
+        <img src="img/7.jpg" />
       </div>
-      <div class="nextContainer">
-        <a class="next" onclick="plusSlides(1)"
-          ><span><h2 id="svgarrnext">></h2> </span>
-          <svg viewBox="0 0 24 24"></svg>
-        </a>
+      <div class="slides">
+        <img src="img/8.jpg" />
       </div>
-
-      <div class="caption-container">
-        <p id="caption"></p>
+      <div class="slides">
+        <img src="img/9.jpg" />
       </div>
+      <div class="slides">
+        <img src="img/10.jpg" />
+      </div>
+      <div class="slides">
+        <img src="img/11.jpg" />
+      </div>
+      <div class="slides">
+        <img src="img/12.jpg" />
+      </div>      <div class="slides">
+        <img src="img/13.jpg" />
+      </div>      <div class="slides">
+        <img src="img/14.jpg" />
+      </div>      <div class="slides">
+        <img src="img/15.jpg" />
+      </div>
+    </div>
 
-      <!-- thumnails in a row -->
-      <div class="row">
-        <div class="column">
+    <div class="prevContainer">
+      <a class="prev" onclick="plusSlides(-1)">
+        <svg viewBox="0 0 24 24">
+          <span><i class="fa-solid fa-arrow-left" id="arrleft"></i></span>
+    
+        </svg>
+      </a>
+    </div>
+    <div class="nextContainer">
+      <a class="next" onclick="plusSlides(1)">
+        <svg viewBox="0 0 24 24">
+        <span>
+          <i class="fa-solid fa-arrow-right" id="arrright"></i>
+        </span>
+        </svg>
+      </a>
+    </div>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+
+    <div class="imgrow">
+      <div class="column">
+        <img
+          class="slide-thumbnail"
+          src="img/1.jpg"
+          onclick="currentSlide(1)"
+          alt="Ishpeming, MI"
+        />
+      </div>
+      <div class="column">
+        <img
+          class="slide-thumbnail"
+          src="/img/2.jpg"
+          onclick="currentSlide(2)"
+          alt="Ishpeming, MI"
+        />
+      </div>
+      <div class="column">
+        <img
+          class="slide-thumbnail"
+          src="img/3.jpg"
+          onclick="currentSlide(3)"
+          alt="Ishpeming, MI"
+        />
+      </div>
+      <div class="column">
+        <img
+          class="slide-thumbnail"
+          src="img/4.jpg"
+          onclick="currentSlide(4)"
+          alt="Ishpeming, MI"
+        />
+      </div>
+      <div class="column">
+        <img
+          class="slide-thumbnail"
+          src="img/5.jpg"
+          onclick="currentSlide(5)"
+          alt="Negaunee, MI"
+        />
+      </div>
+      <div class="column">
+        <img
+          class="slide-thumbnail"
+          src="img/6.jpg"
+          onclick="currentSlide(6)"
+          alt="Negaunee, MI"
+        />
+      </div>
+    </div>
+    <div class="imgrow2">
+      <div class="column2">
+        <img
+          class="slide-thumbnail"
+          src="img/7.jpg"
+          onclick="currentSlide(7)"
+          alt="Negaunee, MI"
+        />
+      </div>
+      <div class="column2">
+        <img
+          class="slide-thumbnail"
+          src="img/8.jpg"
+          onclick="currentSlide(8)"
+          alt="Negaunee, MI"
+        />
+      </div>
+      <div class="column2">
+        <img
+          class="slide-thumbnail"
+          src="img/9.jpg"
+          onclick="currentSlide(9)"
+          alt="Negaunee, MI"
+        />
+      </div>
+      <div class="column2">
+        <img
+          class="slide-thumbnail"
+          src="img/10.jpg"
+          onclick="currentSlide(10)"
+          alt="Ishpeming, MI"
+        />
+      </div>
+      <div class="column2">
+        <img
+          class="slide-thumbnail"
+          src="img/11.jpg"
+          onclick="currentSlide(11)"
+          alt="Ishpeming, MI"
+        />
+      </div>
+      <div class="column2">
+        <img
+          class="slide-thumbnail"
+          src="img/12.jpg"
+          onclick="currentSlide(12)"
+          alt="Ishpeming, MI"
+        />
+      </div></div>
+      <div class="imgrow3">
+
+        <div class="column3">
           <img
-            class="slide-thumbnail"
-            src="img/1.png"
-            onclick="currentSlide(1)"
-            alt="Ishpeming, MI"
+          src="img/13.jpg"
+          onclick="currentSlide(13)"
+          alt="Negaunee, MI"
+          class="slide-thumbnail"
           />
         </div>
-        <div class="column">
+        <div class="column3">
           <img
-            class="slide-thumbnail"
-            src="/img/2.png"
-            onclick="currentSlide(2)"
-            alt="Ishpeming, MI"
+          src="img/14.jpg"
+          onclick="currentSlide(14)"
+          alt="Negaunee, MI"
+          class="slide-thumbnail"
           />
         </div>
-        <div class="column">
+        <div class="column3">
           <img
-            class="slide-thumbnail"
-            src="img/3.png"
-            onclick="currentSlide(3)"
-            alt="Negaunee, MI"
-          />
-        </div>
-        <div class="column">
-          <img
-            class="slide-thumbnail"
-            src="img/4.png"
-            onclick="currentSlide(4)"
-            alt="Negaunee, MI"
-          />
-        </div>
-        <div class="column">
-          <img
-            class="slide-thumbnail"
-            src="img/5.png"
-            onclick="currentSlide(5)"
-            alt="Negaunee, MI"
-          />
-        </div>
-        <div class="column">
-          <img
-            class="slide-thumbnail"
-            src="img/6.png"
-            onclick="currentSlide(6)"
-            alt="Negaunee, MI"
+          src="img/15.jpg"
+          onclick="currentSlide(15)"
+          alt="Negaunee, MI"
+          class="slide-thumbnail"
           />
         </div>
       </div>
     </div>
-
-
-
+      
   </div> <div class="main-window main-window--2 hidden"> 
     <section class="main-text2">
       <br />
@@ -262,14 +355,47 @@
 
     </section>
 
-  </div> <div class="main-window main-window--3 hidden"> 
+  </div><div class="main-window main-window--3 hidden"> 
     <section class="main-text3">
+      <br />
+      <br>
+      <h2>About us</h2>
+<br><br>
+
+
+      &nbsp; &nbsp;
+   Testimonial
+      <br><br><br>
+      <h2>
+
+
+    </section>
+
+  </div>
+   <div class="main-window main-window--4 hidden"> 
+    <section class="main-text4">
       <br />
       <br>
       <span>
 
-        <h4>Contact us via email or simply fill out this short form</h4>
+        <h4 class="orange" id="org">Contact us via phone, email or simply fill out this short form</h4>
         <br>
+        <span class="orange">
+          <h4 class="orange">Phone: &nbsp; &nbsp; &nbsp; &nbsp; (906)360-4809</h4>
+            Brian Frustaglio
+            &nbsp;&nbsp;
+            <a type="email" href="mailto:brian@gebuildersinc.com">brian@gebuildersinc.com</a>
+            <!-- </div> -->
+            <br>
+            
+            
+            
+            Ryan Store
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+            <a type="email" href="mailto:rstore@gebuildersinc.com">rstore@gebuildersinc.com</a>
+            
+          </span>
+          <br><br>
         <br>
         <!-- &nbsp; &nbsp; &nbsp; &nbsp; -->
         
@@ -283,13 +409,12 @@
     <input type="hidden" name="access_key" value="7e189092-02ad-47f3-981b-c88d1230dff3">
 
   <h4>First and Last name</h4>
-  <input type="text" name="name" placeholder="fuck "required>
-  <h4 id="h4email">Email</h4>
+  <input type="text" name="name" placeholder="First and Last  Name "required>
+  <h4>Email</h4>
   <input type="email" name="email" required placeholder="email">
-  <h4 id="h4phone">Phone Number</h4>
+  <h4>Phone Number</h4>
   <input type="phone" name="phonenumber" required placeholder="phone number">
-  <h4 id="h4message">Your Message:</h4>
-  <br>
+  <h4>Your Message:</h4>
   <textarea name="message" required placeholder="Message" id="message"></textarea>
   <div class="h-captcha" data-captcha="true">
 
@@ -310,19 +435,18 @@
 
       <!-- <div id="footer2"> -->
 <span>
-<h4>Contact Us:</h4>
+<h4>Contact Us: &nbsp; &nbsp; &nbsp; &nbsp; (906)360-4809</h4>
   Brian Frustaglio
-  
-  
-  <a type="email" href="brian@gebuildersinc.com">brian@gebuildersinc.com</a>
+  &nbsp;&nbsp;
+  <a type="email" href="mailto:brian@gebuildersinc.com">brian@gebuildersinc.com</a>
   <!-- </div> -->
   <br>
   
   
   
   Ryan Store
-  
-  <a type="email" href="rstore@gebuildersinc.com">rstore@gebuildersinc.com</a>
+  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+  <a type="email" href="mailto:rstore@gebuildersinc.com">rstore@gebuildersinc.com</a>
   
 </span>
       <img src="img/GE_logo2.png" id="footerlogo"><br>
