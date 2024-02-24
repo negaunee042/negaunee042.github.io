@@ -1,14 +1,16 @@
 const home = document.getElementById('home');
 const portfolio = document.getElementById('portfolio');
 const about = document.getElementById('about');
-const testimonial=document.getElementById('testimonial')
+const testimonial = document.getElementById('testimonial');
 const contact = document.getElementById('contact');
+const services = document.getElementById('services');
 const mainWindow = document.querySelectorAll('.main-window');
 const mainWindow0 = document.querySelector('.main-window--0');
 const mainWindow1 = document.querySelector('.main-window--1');
 const mainWindow2 = document.querySelector('.main-window--2');
 const mainWindow3 = document.querySelector('.main-window--3');
 const mainWindow4 = document.querySelector('.main-window--4');
+const mainWindow5 = document.querySelector('.main-window--5');
 const links = document.querySelectorAll('.links');
 function remove() {
   mainWindow.forEach((w) => {
@@ -30,19 +32,25 @@ home.addEventListener('click', () => {
 about.addEventListener('click', () => {
   remove();
   removeBorder();
-  mainWindow2.classList.remove('hidden');
+  mainWindow3.classList.remove('hidden');
   about.style.borderBottom = '2px solid #000';
 });
-testimonial.addEventListener('click', ()=>{
+services.addEventListener('click', () => {
   remove();
   removeBorder();
-  mainWindow3.classList.remove('hidden')
-  testimonial.style.borderBottom='2px solid #000'
-})
-contact.addEventListener('click', () => {
+  mainWindow2.classList.remove('hidden');
+  services.style.borderBottom = '2px solid #000';
+});
+testimonial.addEventListener('click', () => {
   remove();
   removeBorder();
   mainWindow4.classList.remove('hidden');
+  testimonial.style.borderBottom = '2px solid #000';
+});
+contact.addEventListener('click', () => {
+  remove();
+  removeBorder();
+  mainWindow5.classList.remove('hidden');
   contact.style.borderBottom = '2px solid #000';
 });
 
