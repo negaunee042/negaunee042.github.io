@@ -3,6 +3,7 @@ const portfolio = document.getElementById('portfolio');
 const about = document.getElementById('about');
 const testimonial = document.getElementById('testimonial');
 const contact = document.getElementById('contact');
+const contact2 = document.getElementById('contact');
 const services = document.getElementById('services');
 const mainWindow = document.querySelectorAll('.main-window');
 const mainWindow0 = document.querySelector('.main-window--0');
@@ -50,6 +51,15 @@ testimonial.addEventListener('click', () => {
 contact.addEventListener('click', () => {
   remove();
   removeBorder();
+  mainWindow5.classList.remove('hidden');
+  contact.style.borderBottom = '2px solid #000';
+});
+contact2.addEventListener('click', () => {
+  // mainWindow5.classList.remove('hidden');
+  // e.preventDefault;
+  // remove();
+  // removeBorder();
+  mainWindow2.classList.add('hidden');
   mainWindow5.classList.remove('hidden');
   contact.style.borderBottom = '2px solid #000';
 });
